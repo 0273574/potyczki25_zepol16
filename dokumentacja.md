@@ -2,6 +2,19 @@ Po pierwsze da się zauwazyc ze wersja ranchera nie jest aktualna więc ją zakt
 
 ## Misja 1
 
+Utworzenie projektu "szk-server"
+![image](https://github.com/user-attachments/assets/f89adae4-5cfa-4ea1-aae0-cee90a7eb7a3)
+
+
+Utworzenie namespace'u "ogloszenia-krytyczne"
+![image](https://github.com/user-attachments/assets/30d448af-36d7-46a2-a77d-24f26183207e)
+
+
+Tworzenie deploymentu z kontenerem nginx w najnowszej wersji, zwiększenie liczby kontenerow nginx
+![image](https://github.com/user-attachments/assets/00fefbb4-a198-4793-b8ba-f5d2b3e0447c)
+
+Użycie loadbalancera w celu umożliwienia odwołania się do usługi oraz zapewnieniu wysokiej dostepnosci suług
+![image](https://github.com/user-attachments/assets/60807293-020e-483d-9341-6059ffed84c4)
 
 
 ## Misja 3
