@@ -70,3 +70,7 @@ dodanie do klastra rapid agenta
 
 potem w zakładce project membership dodanie go do projekto "szk-server" w trybie read-only
 
+utworzenie roli log-reader z opisanymi parametrami 
+
+![image](https://github.com/user-attachments/assets/3604dc49-bf2b-4dc8-855b-a0b130e474b2)
+
