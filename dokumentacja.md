@@ -62,7 +62,7 @@ Zostal zuploadowany yaml, z automatu nie ma stworzonego serwisu, więc jest odci
 W pliku yaml znajduje się niepoprawna ścieżka  
     volumeMounts:
     - name: config-volume
-      mountPath: /etc/konfiguracja
+      mountPath: /etc/konfiguracja <- powinno się znaleźć: "/etc"
 
 ## Misja 8
 Utworzenie rapid-response-agent
