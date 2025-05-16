@@ -59,6 +59,11 @@ Zostal zuploadowany yaml, z automatu nie ma stworzonego serwisu, więc jest odci
 
 ## Misja 7
 
+W pliku yaml znajduje się niepoprawna ścieżka  
+    volumeMounts:
+    - name: config-volume
+      mountPath: /etc/konfiguracja
+
 ## Misja 8
 Utworzenie rapid-response-agent
 ![image](https://github.com/user-attachments/assets/1aa736ab-39ad-4df8-9873-6811cc339609)
