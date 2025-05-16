@@ -63,3 +63,10 @@ Zostal zuploadowany yaml, z automatu nie ma stworzonego serwisu, więc jest odci
 Utworzenie rapid-response-agent
 ![image](https://github.com/user-attachments/assets/1aa736ab-39ad-4df8-9873-6811cc339609)
 
+(klastr potyczki przestał odmawiać posłuszeństwa w tyn momencie)
+
+dodanie do klastra rapid agenta
+![image](https://github.com/user-attachments/assets/bc45cc8f-393e-41dc-a411-d7ad738a150f)
+
+potem w zakładce project membership dodanie go do projekto "szk-server" w trybie read-only
+
