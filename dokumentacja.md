@@ -18,6 +18,8 @@ https://rancher.193.187.67.113.sslip.io/k8s/clusters/c-m-fjqvk7f6/api/v1/namespa
 
 ## Misja 4
 Instalacja NeuVector, za pomocą Apps na klastrze **potyczki**.
+AUTOSCAN ->
+![Screenshot 2025-05-16 at 12 32 45](https://github.com/user-attachments/assets/81bc4411-dda1-4c8c-b83f-d2aa1140ec24)
 
 Logowanie sie do NeuVector ->
   NODE_PORT=$(kubectl get --namespace cattle-neuvector-system -o jsonpath="{.spec.ports[0].nodePort}" services neuvector-service-webui)
@@ -37,4 +39,5 @@ Dodatkowo, w ekosystemie Kubernetes w wersjach poniżej 1.24.17 (czyli także w 
 Ilośc podatno
 ## Misja 5
 Rozwiązanie ollamy z najwyższą wersją podatności to ollama/ollama:0.1.1, zawiera ono 40 różnych podatności bezpieczeństwa
+![Screenshot 2025-05-16 at 12 34 12](https://github.com/user-attachments/assets/a4f0d076-95f0-446b-845a-b87d3e0ad339)
 
