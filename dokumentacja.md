@@ -56,3 +56,10 @@ Ilośc podatno
 
 ## Misja 6
 Zostal zuploadowany yaml, z automatu nie ma stworzonego serwisu, więc jest odcięta jakakolwiek komunikacja.
+
+## Misja 7
+
+## Misja 8
+Utworzenie rapid-response-agent
+![image](https://github.com/user-attachments/assets/1aa736ab-39ad-4df8-9873-6811cc339609)
+
