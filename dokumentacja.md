@@ -19,6 +19,14 @@ https://rancher.193.187.67.113.sslip.io/k8s/clusters/c-m-fjqvk7f6/api/v1/namespa
 ## Misja 4
 Instalacja NeuVector, za pomocą Apps na klastrze **potyczki**.
 
+Logowanie sie do NeuVector ->
+  NODE_PORT=$(kubectl get --namespace cattle-neuvector-system -o jsonpath="{.spec.ports[0].nodePort}" services neuvector-service-webui)
+  NODE_IP=$(kubectl get nodes --namespace cattle-neuvector-system -o jsonpath="{.items[0].status.addresses[0].address}") 
+  echo https://$NODE_IP:$NODE_PORT
+
+Żadne podatnosci nie zostaly wykryte przez NeuVector, gdyz na poczatku wykonywania zadań został cały cluster zaktualizowany 
+![Screenshot 2025-05-16 at 12 24 50](https://github.com/user-attachments/assets/079096c0-fa22-4c8e-aba0-d799668c9b97)
+
 Ilośc podatności na wcześniejszej wersji rke2 -> 
   Znane podatności (CVE) dla RKE2 1.24.17+rke2r1
 Według bazy CVE Details, wersja 1.24.17+rke2r1 posiada co najmniej jedną znaną podatność (CVE-2023-32186), która umożliwia atak typu Denial of Service na serwery RKE2. Szczegóły i zalecenia dotyczące zabezpieczenia klastra przed tą podatnością opisano w oficjalnych notatkach wydania RKE2.
